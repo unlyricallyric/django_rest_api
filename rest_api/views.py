@@ -2,10 +2,11 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework import viewsets
-import rest_framework.authentication import TokenAuthentication
+from rest_framework.authentication import TokenAuthentication
 
 from rest_api import serializers
-from rest_api import models, permissions
+from rest_api import models
+from rest_api import permissions
 
 
 class HelloApiView(APIView):
